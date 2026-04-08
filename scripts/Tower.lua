@@ -705,9 +705,9 @@ function M.StartPouringAnim(scene_, towerData, wineIdx, floorIdx, matched)
         streamBottomY = streamStartY,  -- 液柱底端（向下延伸）
         streamTargetBottomY = streamEndY,
         streamRadius = streamRadius,
-        pourSpeed = 35.0,  -- 液柱下延速度（米/秒）
+        pourSpeed = math.max((streamStartY - streamEndY) / 0.5, 35.0),  -- 动态速度：保证 0.5s 内落完，最低 35m/s
         -- 缩回阶段参数
-        retractSpeed = 40.0,
+        retractSpeed = math.max((streamStartY - streamEndY) / 0.4, 40.0),  -- 动态速度：保证 0.4s 内缩回
         -- 飞溅效果
         splashSpawned = false,
     }

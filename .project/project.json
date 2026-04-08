@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/project.schema.json",
+  "project_id": "p_6tg1",
+  "author": {
+    "id": "175814101"
+  },
+  "entry": "main.lua",
+  "version": "1.0.2",
+  "taptap_publish": {
+    "title": "Stacked Hues",
+    "description": "",
+    "category": "casual",
+    "screen_orientation": "landscape",
+    "collection_type": "sce",
+    "trial_note": "<developer's note>",
+    "app_platforms": "1,2",
+    "developer_id": 390556,
+    "app_id": 835319,
+    "miniapp_id": "tapmcsfmhdf90jx0ku"
+  },
+  "assets": {
+    "icon": "./game_material/ICON_2026-03-29T04-15-31_01.png",
+    "screenshots": [
+      "./game_material/screenshot_1.png",
+      "./game_material/screenshot_2.png",
+      "./game_material/screenshot_3.png"
+    ],
+    "promotional_image": "./game_material/PROMO_2026-03-29T04-15-31_01.jpg",
+    "screenshot_urls": [
+      "https://tapcode-sce.spark.xd.com/assets/game_material/p_6tg1/screenshot_1.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/p_6tg1/screenshot_2.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/p_6tg1/screenshot_3.png"
+    ],
+    "icon_url": "https://tapcode-sce.spark.xd.com/assets/game_material/Stacked Hues/ICON_2026-03-29T04-15-31_01.png",
+    "promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/Stacked Hues/PROMO_2026-03-29T04-15-31_01.jpg"
+  },
+  "metadata": {
+    "updated_at": "2026-03-29T04:31:31.791Z"
+  }
+}

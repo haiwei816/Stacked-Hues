@@ -1,0 +1,161 @@
+{
+  "startTime": "2026-03-29T04:31:46.663Z",
+  "endTime": "2026-03-29T04:32:03.508Z",
+  "duration": "16845ms",
+  "result": {
+    "success": true
+  },
+  "steps": [
+    {
+      "time": "2026-03-29T04:31:46.669Z",
+      "stage": "upload_to_cdn",
+      "data": {
+        "status": "start"
+      }
+    },
+    {
+      "time": "2026-03-29T04:31:59.310Z",
+      "stage": "upload_to_cdn",
+      "data": {
+        "status": "done"
+      }
+    },
+    {
+      "time": "2026-03-29T04:31:59.310Z",
+      "stage": "network_config",
+      "data": {
+        "env": "production"
+      }
+    },
+    {
+      "time": "2026-03-29T04:31:59.320Z",
+      "stage": "load_config",
+      "data": {
+        "projectId": "p_6tg1",
+        "configPath": "/userspaces/156b1276-3487-45d5-a60d-45ae94ca0d83/workspace/.project/project.json",
+        "taptap_publish": {
+          "title": "Stacked Hues",
+          "description": "",
+          "category": "casual",
+          "screen_orientation": "landscape",
+          "collection_type": "sce",
+          "trial_note": "<developer's note>",
+          "app_platforms": "1,2",
+          "developer_id": 390556,
+          "app_id": 835319,
+          "miniapp_id": "tapmcsfmhdf90jx0ku"
+        },
+        "assets": {
+          "icon": "./game_material/ICON_2026-03-29T04-15-31_01.png",
+          "screenshots": [
+            "./game_material/screenshot_1.png",
+            "./game_material/screenshot_2.png",
+            "./game_material/screenshot_3.png"
+          ],
+          "promotional_image": "./game_material/PROMO_2026-03-29T04-15-31_01.jpg",
+          "screenshot_urls": [
+            "https://tapcode-sce.spark.xd.com/assets/game_material/p_6tg1/screenshot_1.png",
+            "https://tapcode-sce.spark.xd.com/assets/game_material/p_6tg1/screenshot_2.png",
+            "https://tapcode-sce.spark.xd.com/assets/game_material/p_6tg1/screenshot_3.png"
+          ],
+          "icon_url": "https://tapcode-sce.spark.xd.com/assets/game_material/Stacked Hues/ICON_2026-03-29T04-15-31_01.png",
+          "promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/Stacked Hues/PROMO_2026-03-29T04-15-31_01.jpg"
+        }
+      }
+    },
+    {
+      "time": "2026-03-29T04:31:59.792Z",
+      "stage": "update_game",
+      "data": {
+        "app_id": 835319,
+        "developer_id": 390556
+      }
+    },
+    {
+      "time": "2026-03-29T04:31:59.792Z",
+      "stage": "upload_assets",
+      "data": {
+        "status": "start",
+        "assets": {
+          "icon": "./game_material/ICON_2026-03-29T04-15-31_01.png",
+          "screenshots": [
+            "./game_material/screenshot_1.png",
+            "./game_material/screenshot_2.png",
+            "./game_material/screenshot_3.png"
+          ],
+          "promotional_image": "./game_material/PROMO_2026-03-29T04-15-31_01.jpg",
+          "screenshot_urls": [
+            "https://tapcode-sce.spark.xd.com/assets/game_material/p_6tg1/screenshot_1.png",
+            "https://tapcode-sce.spark.xd.com/assets/game_material/p_6tg1/screenshot_2.png",
+            "https://tapcode-sce.spark.xd.com/assets/game_material/p_6tg1/screenshot_3.png"
+          ],
+          "icon_url": "https://tapcode-sce.spark.xd.com/assets/game_material/Stacked Hues/ICON_2026-03-29T04-15-31_01.png",
+          "promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/Stacked Hues/PROMO_2026-03-29T04-15-31_01.jpg"
+        }
+      }
+    },
+    {
+      "time": "2026-03-29T04:32:02.341Z",
+      "stage": "upload_assets",
+      "data": {
+        "status": "done",
+        "uploadedAssets": {
+          "iconUrl": "https://img-tc.tapimg.com/market/images/FtCXq9VgTRt8BG0AoWKKOcphwwhF.png",
+          "screenshotUrls": [
+            "https://img-tc.tapimg.com/market/images/FnSDQYmZe2flbZAPwAMbQG3EGswy.png",
+            "https://img-tc.tapimg.com/market/images/FohSc4aPsdiha-mw5dOfBMZMSIAp.png",
+            "https://img-tc.tapimg.com/market/images/Fq_69Fet5F5RX1L5ckTLi3VXgjCK.png"
+          ],
+          "bannerUrl": "https://img-tc.tapimg.com/market/images/FnPpVrt5CO-1Ui6dxpP2qJE9tuh5.jpg"
+        }
+      }
+    },
+    {
+      "time": "2026-03-29T04:32:02.341Z",
+      "stage": "submit_spark_request",
+      "data": {
+        "app_id": 835319,
+        "developer_id": 390556,
+        "map_version": "2",
+        "sce_project_id": "p_6tg1",
+        "category": "casual",
+        "collection_type": "casual",
+        "description": "",
+        "screen_orientation": 2,
+        "title": "Stacked Hues",
+        "icon": "https://img-tc.tapimg.com/market/images/FtCXq9VgTRt8BG0AoWKKOcphwwhF.png",
+        "screenshots": [
+          "https://img-tc.tapimg.com/market/images/FnSDQYmZe2flbZAPwAMbQG3EGswy.png",
+          "https://img-tc.tapimg.com/market/images/FohSc4aPsdiha-mw5dOfBMZMSIAp.png",
+          "https://img-tc.tapimg.com/market/images/Fq_69Fet5F5RX1L5ckTLi3VXgjCK.png"
+        ],
+        "banner": "https://img-tc.tapimg.com/market/images/FnPpVrt5CO-1Ui6dxpP2qJE9tuh5.jpg",
+        "trial_note": "<developer's note>",
+        "app_platforms": "1,2"
+      }
+    },
+    {
+      "time": "2026-03-29T04:32:03.508Z",
+      "stage": "submit_spark_response",
+      "data": {
+        "app_id": 835319,
+        "app_title": "Stacked Hues",
+        "category": "casual",
+        "category_label": "休闲",
+        "display_app_title": "休闲游戏大全"
+      }
+    },
+    {
+      "time": "2026-03-29T04:32:03.508Z",
+      "stage": "publish_result",
+      "data": {
+        "action": "updated",
+        "status": "pending_review",
+        "game_id": 835319,
+        "message": "成功更新游戏 \"Stacked Hues\"",
+        "developer_id": 390556,
+        "config_file_path": "/userspaces/156b1276-3487-45d5-a60d-45ae94ca0d83/workspace/.project/project.json"
+      }
+    }
+  ]
+}
